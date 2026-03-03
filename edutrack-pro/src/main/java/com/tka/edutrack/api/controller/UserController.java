@@ -23,7 +23,7 @@ import com.tka.edutrack.api.service.UserService;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://localhost:5173")
 public class UserController {
 
 	@Autowired
@@ -91,3 +91,4 @@ public class UserController {
 	}
 
 }
+
