@@ -23,7 +23,7 @@ import com.tka.edutrack.api.service.UserService;
 
 @RestController
 @RequestMapping("/attendance")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://localhost:5173")
 
 public class AttendanceController {
 
@@ -79,3 +79,4 @@ public class AttendanceController {
 		return attendanceRecordService.saveAttendance(attendanceRecord);
 	}
 }
+
