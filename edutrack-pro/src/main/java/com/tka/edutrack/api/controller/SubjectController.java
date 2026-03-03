@@ -19,7 +19,7 @@ import com.tka.edutrack.api.service.SubjectService;
 
 @RestController
 @RequestMapping("/subject")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://localhost:5173")
 public class SubjectController {
 
 	@Autowired
@@ -53,3 +53,4 @@ public class SubjectController {
 		return subjectService.deleteSubject(id);
 	}
 }
+
