@@ -33,6 +33,7 @@ public class UserController {
 // http://localhost:8091/user/login-user
 	@PostMapping("/login-user")
 	public Object loginUser(@RequestBody LoginRequest request) {
+		System.out.println(1+"--->"+request);
 		User user = service.loginUser(request);
 		
 		if(user!=null) {
@@ -91,4 +92,5 @@ public class UserController {
 	}
 
 }
+
 
