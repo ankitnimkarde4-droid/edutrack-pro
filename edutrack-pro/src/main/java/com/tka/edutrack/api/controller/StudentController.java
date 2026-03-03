@@ -18,7 +18,7 @@ import com.tka.edutrack.api.service.StudentService;
 
 @RestController
 @RequestMapping("/student")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("http://localhost:5173")
 public class StudentController {
 
 	@Autowired
@@ -50,3 +50,4 @@ public class StudentController {
 		return studentService.deleteStudent(id);
 	}
 }
+
